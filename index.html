@@ -1,1 +1,233 @@
-<!DOCTYPE html><html><body><h1>Привет! Это мой сайт на GitHub Pages!</h1></body></html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Резюме</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333;
+    background:#fff;
+}
+
+.resume{
+    width:900px;
+    margin:30px auto;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-bottom:35px;
+}
+
+.left-head{
+    display:flex;
+    gap:22px;
+}
+
+.photo{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    overflow:hidden;
+    background:#ddd;
+    flex-shrink:0;
+}
+
+.photo img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.info h1{
+    font-size:34px;
+    color:#555;
+    margin-bottom:8px;
+}
+
+.info p{
+    font-size:18px;
+    line-height:1.5;
+}
+
+.contacts{
+    text-align:right;
+    font-size:18px;
+    line-height:1.7;
+}
+
+.content{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:45px;
+}
+
+.section{
+    margin-bottom:30px;
+}
+
+.section h2{
+    font-size:20px;
+    color:#777;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:10px;
+}
+
+.line{
+    width:100%;
+    height:3px;
+    background:#777;
+    margin-bottom:18px;
+}
+
+.subtitle{
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:8px;
+}
+
+.text{
+    line-height:1.6;
+    font-size:17px;
+}
+
+ul{
+    margin-left:20px;
+}
+
+li{
+    margin-bottom:8px;
+    line-height:1.5;
+}
+</style>
+</head>
+<body>
+
+<div class="resume">
+
+<div class="header">
+
+<div class="left-head">
+
+<div class="photo">
+    <img src="/home/yakhya/Downloads/profil.jpg" alt="Фото">
+</div>
+
+<div class="info">
+<h1>Алиев Яхьёбек</h1>
+
+<p><b>Должность:</b> Младший системный администратор (0,5 ставки)</p>
+<p><b>График:</b> Вторая смена (совмещение с учебой)</p>
+
+</div>
+</div>
+
+<div class="contacts">
+<p>0550116070</p>
+<p>alievyakhyo@gmail.com</p>
+</div>
+
+</div>
+
+<div class="content">
+
+<!-- ЛЕВАЯ КОЛОНКА -->
+
+<div>
+
+<div class="section">
+<h2>Образование</h2>
+<div class="line"></div>
+
+<div class="subtitle">Ошский государственный университет (ОшГУ)</div>
+
+<div class="text">
+Факультет математики и информационных технологий (МФТИТ)
+</div>
+
+<ul>
+<li>Специальность: Автоматизированные системы обработки информации и управления (АСОИУ)</li>
+<li>Курс: 3 курс (русское отделение)</li>
+<li>Форма обучения: Дневная, 1-я смена</li>
+</ul>
+
+</div>
+
+<div class="section">
+<h2>Технические навыки</h2>
+<div class="line"></div>
+
+<ul>
+<li>Аппаратное обеспечение и инфраструктура (Hardware & Network Physical Level).</li>
+<li>Обжим витой пары (RJ-45, патч-корды), работа с инструментом и тестерами.</li>
+<li>Заправка и обслуживание лазерных картриджей.</li>
+<li>Сборка, чистка, диагностика и мелкий ремонт ПК.</li>
+<li>Linux: работа в CLI, пользователи, права, службы.</li>
+<li>Windows: установка ОС, драйверов и настройка системы.</li>
+<li>TCP/IP, DNS, DHCP, SSH.</li>
+<li>Nmap — сканирование сети и аудит портов.</li>
+<li>Wireshark — захват и анализ трафика.</li>
+<li>UFW — базовая настройка файрвола.</li>
+</ul>
+
+</div>
+
+</div>
+
+<!-- ПРАВАЯ КОЛОНКА -->
+
+<div>
+
+<div class="section">
+<h2>Практический опыт</h2>
+<div class="line"></div>
+
+<div class="subtitle">
+Дата-центр / ЦИТТОКС ОшГУ — Стажер / Младший специалист
+</div>
+
+<div class="text">(Апрель 2026 — по настоящее время)</div>
+
+<ul>
+<li>Установка и переустановка Windows, настройка драйверов.</li>
+<li>Монтаж и обслуживание локальных сетей (RJ-45, кабели, маркировка).</li>
+<li>Заправка и обслуживание принтеров.</li>
+<li>Мониторинг оборудования и базовое администрирование Linux-серверов.</li>
+<li>Диагностика сетевых неполадок и анализ трафика.</li>
+</ul>
+
+</div>
+
+<div class="section">
+<h2>Дополнительная информация</h2>
+<div class="line"></div>
+
+<ul>
+<li>Работа во вторую смену (после 13:00–14:00).</li>
+<li>Ответственность и быстрое освоение новых технологий.</li>
+<li>Интерес к DevOps / DevSecOps.</li>
+<li>Умение работать в команде.</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
